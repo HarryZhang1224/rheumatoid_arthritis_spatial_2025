@@ -7,8 +7,8 @@ This repository contains code to reproduce the main data processing, analysis, a
 
 1. **Co-culture scRNA-seq preprocessing** in [`code/scRNA/preprocessing_0`](./code/scRNA/preprocessing_0), including quality control, doublet detection, fibroblast/macrophage separation, and Symphony-based reference mapping to the Zhang et al. 2023 AMP atlas.
 2. **Xenium in situ analysis** in [`code/xenium`](./code/xenium), including Baysor-based segmentation, Seurat-based quality control and integration, cell type niche identification, Niche-DE analysis, and cell type colocalization quotient (CLQ) analysis.
-3. **WGCNA** analysis in [`code/WGCNA_rheumatoid_arthritis`](./code/WGCNA_rheumatoid_arthritis).
-3. Jupyter notebooks to reproduce **main manucript figures** are in [`code/figures`](./code/figures).
+3. **Results 5 WGCNA and TCZ suppression analysis** in [`code/Results_5_WGCNA_TCZSuppression`](./code/Results_5_WGCNA_TCZSuppression), including merged WGCNA, paired module-change analysis, over-representation analysis, IM049 in vitro signature definition, and TCZ patient signature scoring.
+4. Jupyter notebooks to reproduce **main manuscript figures** are in [`code/figures`](./code/figures).
 ---
 
 ## Data Access
