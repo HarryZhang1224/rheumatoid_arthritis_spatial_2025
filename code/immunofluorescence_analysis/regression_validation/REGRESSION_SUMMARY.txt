@@ -1,0 +1,28 @@
+Submission code regression review
+
+Reference case
+- pSTAT3 CSV: final_images/viewer_parameter_exports/RA1_opn_cd14_fibrin_pSTAT3.figure_parameters_031426.csv
+- ECM CSV: final_images/viewer_parameter_exports/RA1_opn_cd14_fibrin_CollagenI.figure_parameters_031426.csv
+- OME search root: final_images/raw_ome_data
+
+Baseline vs fixed
+- if_signal_quantification_summary.csv: IDENTICAL
+- pstat3_seed_calls.csv: IDENTICAL
+- ecm_seed_calls.csv: IDENTICAL
+- pSTAT3 mask QC PNG: IDENTICAL
+- ECM mask QC PNG: IDENTICAL
+
+Row counts
+- if_signal_quantification_summary.csv: 13 rows in both runs
+- pstat3_seed_calls.csv: 57,314 rows in both runs
+- ecm_seed_calls.csv: 51,855 rows in both runs
+
+Safety tests
+- bad marker CSV: failed as expected (exit code 1)
+- duplicate OME match: failed as expected (exit code 1)
+- single-level OME-TIFF inputs: succeeded (exit code 0)
+
+Folders
+- baseline_current/: outputs from the original pre-fix script
+- fixed_current/: outputs from the patched script
+- negative_tests/: safety-test inputs, logs, and outputs

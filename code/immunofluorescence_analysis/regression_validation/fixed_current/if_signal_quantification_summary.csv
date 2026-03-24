@@ -1,0 +1,13 @@
+analysis,group,n_group,n_pstat3_pos,proportion,n_opnmac
+pstat3_within_group,CD14+OPN+,15713,662,0.042130719786164325,
+pstat3_within_group,CD14+OPN-,11605,85,0.007324429125376993,
+pstat3_within_group,CD14-,29995,15,0.0005000833472245374,
+pstat3_composition,CD14+OPN+,662,762,0.868766404199475,
+pstat3_composition,CD14+OPN-,85,762,0.1115485564304462,
+pstat3_composition,CD14-OPN+,1,762,0.0013123359580052493,
+pstat3_composition,CD14-OPN-,14,762,0.01837270341207349,
+pstat3_total,all_cells,57313,762,0.013295412908066233,
+opnmac_ecm_compartment,Fibrin only,4835,,0.19011481597986787,25432
+opnmac_ecm_compartment,Collagen only,6854,,0.26950298836111986,25432
+opnmac_ecm_compartment,Both,3309,,0.13011167033658383,25432
+opnmac_ecm_compartment,Neither,10434,,0.4102705253224284,25432

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/quantify_if_signal.py", line 562, in <module>
+    main()
+    ~~~~^^
+  File "/Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/quantify_if_signal.py", line 518, in main
+    pstat3_panel = build_panel_data(args.pstat3_csv, args.ome_search_root, args.pstat3_mask_threshold, args)
+  File "/Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/quantify_if_signal.py", line 405, in build_panel_data
+    ome_path = resolve_ome_path(ome_search_root, ome_file)
+  File "/Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/quantify_if_signal.py", line 161, in resolve_ome_path
+    raise RuntimeError(f'Ambiguous OME-TIFF match for {ome_file} under {search_root}. Matches:\n{joined}')
+RuntimeError: Ambiguous OME-TIFF match for RA1_opn_cd14_fibrin_pSTAT3.ome.tiff under /Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/submission_code_regression_20260324/negative_tests/duplicate_ome_root. Matches:
+/Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/submission_code_regression_20260324/negative_tests/duplicate_ome_root/a/RA1_opn_cd14_fibrin_pSTAT3.ome.tiff
+/Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/submission_code_regression_20260324/negative_tests/duplicate_ome_root/b/RA1_opn_cd14_fibrin_pSTAT3.ome.tiff

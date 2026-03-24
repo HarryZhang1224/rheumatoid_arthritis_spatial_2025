@@ -1,0 +1,5 @@
+python quantify_if_signal.py \
+  --pstat3-csv /path/to/pSTAT3_panel.figure_parameters.csv \
+  --ecm-csv /path/to/fibrin_collagen_panel.figure_parameters.csv \
+  --ome-search-root /path/to/raw_ome_tiffs \
+  --out-dir /path/to/output_dir

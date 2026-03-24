@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/quantify_if_signal.py", line 562, in <module>
+    main()
+    ~~~~^^
+  File "/Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/quantify_if_signal.py", line 518, in main
+    pstat3_panel = build_panel_data(args.pstat3_csv, args.ome_search_root, args.pstat3_mask_threshold, args)
+  File "/Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/quantify_if_signal.py", line 425, in build_panel_data
+    raise RuntimeError(f'Missing required markers in {csv_path}: {missing_markers}')
+RuntimeError: Missing required markers in /Users/ianmantel/Documents/PhD_Postdoc/Research/Experimental Log/IM104/submission_code_regression_20260324/negative_tests/bad_marker_pstat3.csv: ['OPN']

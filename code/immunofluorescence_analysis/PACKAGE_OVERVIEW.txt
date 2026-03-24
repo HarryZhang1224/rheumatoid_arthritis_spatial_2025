@@ -1,0 +1,32 @@
+Submission package for IF quantification code (032426)
+
+Contents
+- quantify_if_signal.py
+  Fixed manuscript-facing script for the two IF quantifications used in the paper.
+- README.md
+  GitHub-friendly overview with installation and usage instructions.
+- QUANTIFY_IF_SIGNAL_README.txt
+  Description of inputs, outputs, and quantification logic.
+- RUN_QUANTIFY_IF_SIGNAL_EXAMPLE.txt
+  Example command showing how to run the script.
+- requirements.txt
+  Tested Python package versions used for this code package.
+- regression_validation/
+  Evidence that the fixes were regression-tested.
+
+Regression validation included here
+- REGRESSION_SUMMARY.txt
+- baseline_current/
+  Outputs from the pre-fix script on the reference case.
+- fixed_current/
+  Outputs from the patched script on the same reference case.
+- negative_test_logs/
+  Logs showing:
+  - bad marker CSV fails loudly
+  - duplicate OME match fails loudly
+  - single-level OME-TIFF inputs succeed
+
+Bottom line
+- The fixed script produced identical outputs to the pre-fix script on the reference case.
+- The robustness issues identified in review were addressed and tested.
+- For GitHub viewing, start with README.md.
