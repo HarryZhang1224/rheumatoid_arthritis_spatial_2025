@@ -14,6 +14,6 @@ This repository contains code to reproduce the main data processing, analysis, a
 
 ## Data Access
 
-Processed and raw data are available on [Synapse](https://www.synapse.org/Synapse:syn73710965/datasets/).
+Processed and raw data are available on [Synapse](https://www.synapse.org/Synapse:syn73979883/wiki/639448).
 
 ---
